@@ -1,16 +1,10 @@
-# firbaseapp
+# note App
 
-A new Flutter project.
+A simple Flutter application that allows users to create, edit, and store notes with the ability to attach photos. Each user can have their own account to save and manage their notes, which are securely stored using Firebase.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Set up Firebase for authentication, Firestore, and Storage.
+Implement user authentication (sign-up, login, logout) with Firebase Authentication.
+Create a form for adding notes and uploading images.
+Use Firestore to save the notes and Storage for saving photos.
